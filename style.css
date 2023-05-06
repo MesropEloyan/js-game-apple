@@ -1,0 +1,33 @@
+
+.score {
+padding: 36px;
+font-size: 100px;
+position: absolute;
+text-shadow: 2px 2px 2px #ffffff;
+}
+
+.board{
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+canvas {
+background-color: green;
+margin: 0 auto;
+}
+
+
+.pulse {
+background-color: rgb(86, 81, 114);
+border-radius: 50%;
+animation: pulse 0.35s ease-out;
+transform: scale(0.0);
+position: absolute;
+}
+@keyframes pulse {
+to {
+    transform: scale(0.04);
+    background-color: #fff;
+    opacity: 0;
+}
+}
